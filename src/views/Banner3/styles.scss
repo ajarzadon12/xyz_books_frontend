@@ -1,0 +1,35 @@
+.banner3 {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F5F8;
+    padding-top: 120px;
+    padding-bottom: 80px;
+
+    .main-title {
+      font-size: 32px;
+      font-weight: bold;
+      color: #12174A;
+      margin-bottom: 20px;
+    }
+
+    .main-title, .faqs-container {
+      width: 800px;
+    }
+
+    .faqs-summary {
+      background-color: #F3F5F8;
+      color: #6060F7;
+    }
+
+    .faqs-moretext {
+      background-color: #F3F5F8;
+      font-size: 12px;
+    }
+
+    .faqs-icon {
+      color: #6060F7;
+    }
+  }
+}
