@@ -6,14 +6,17 @@ import Help from 'src/assets/images/help.svg';
 import Piggy from 'src/assets/images/piggy_bank.svg';
 import BinanceLogo from 'src/assets/images/binance_colored.svg';
 import Star from 'src/assets/images/star.svg';
+import Doughnuts from '../../assets/images/doughnuts_doom.png';
+import BendLuck from '../../assets/images/bend_of_luck.png';
+import Underwater from '../../assets/images/underwater_welder.png';
 import BookCard from "./BookCard";
 
 const Banner2 = (props) => {
 
   const books = [
-    {id: 1, title: 'Doughnuts and Doom', imageUrl: '#'},
-    {id: 2, title: 'The Bend of Luck', imageUrl: '#'},
-    {id: 3, title: 'The Underwater Welder', imageUrl: '#'},
+    {id: 1, title: 'Doughnuts and Doom', imageUrl: Doughnuts.src},
+    {id: 2, title: 'The Bend of Luck', imageUrl: BendLuck.src},
+    {id: 3, title: 'The Underwater Welder', imageUrl: Underwater.src},
   ];
 
   return (
