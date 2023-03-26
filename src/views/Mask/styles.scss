@@ -1,0 +1,8 @@
+.mask {
+  &__container {
+    background-image: url('../../assets/images/mask_group.png');
+    height: 30px;
+    display: flex;
+    justify-content: center;
+  }
+}

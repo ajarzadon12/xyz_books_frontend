@@ -27,8 +27,21 @@ const TextInput = (props) => {
     id = "text-input",
     placeholder = 'input',
     Icon = null,
+    iconPosition = 'start',
     ...otherProps
   } = props;
+
+  const adornment = () => {
+    if (iconPosition === 'start') {
+      return ({
+        startAdornment: <InputAdornment position='start'><Icon /></InputAdornment>
+      });
+    } else {
+      return ({
+        endAdornment: <InputAdornment position='end'><Icon /></InputAdornment>
+      });
+    }
+  };
 
   return (
     <div className="text-input__container">
@@ -44,9 +57,7 @@ const TextInput = (props) => {
             focused: classes.focused,
             notchedOutline: classes.outline,
           },
-          startAdornment: (
-            <InputAdornment position="start"><Icon /></InputAdornment>
-          ),
+          ...adornment()
         }}
         {...otherProps}
       />
