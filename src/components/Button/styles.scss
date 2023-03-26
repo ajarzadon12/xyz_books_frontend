@@ -3,12 +3,19 @@
     border: none;
     border-radius: 16px;
     font-size: 16px;
-    padding: 16px 40px;
+    padding: 12px 40px;
     background-color: #6160F6;
+    box-shadow: 0 12px rgba(190, 190, 190, 0.1);
 
     &.link {
       background: none;
+      box-shadow: none;
       color: #000000;
+    }
+
+    &.dark {
+      background-color: #151B55;
+      color: #5FD3FA;
     }
   }
 }
