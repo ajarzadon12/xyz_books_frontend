@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import Header from 'src/views/Header';
 import Banner1 from 'src/views/Banner1';
+import Banner2 from 'src/views/Banner2';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
           <Header />
           <Banner1 />
+          <Banner2 />
       </main>
     </>
   )
