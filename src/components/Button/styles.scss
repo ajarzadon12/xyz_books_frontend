@@ -1,0 +1,14 @@
+.button {
+  &__container {
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    padding: 16px 40px;
+    background-color: #6160F6;
+
+    &.link {
+      background: none;
+      color: #000000;
+    }
+  }
+}

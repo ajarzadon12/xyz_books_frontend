@@ -1,0 +1,25 @@
+.header {
+  &__container {
+    align-items: center;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+    .buttons-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .language-icon {
+      padding-top: 10px;
+      color: #429AF7;
+    }
+
+    .vl {
+      border-left: 1px solid #EDEDED;
+      height: 30px;
+    }
+  }
+}
