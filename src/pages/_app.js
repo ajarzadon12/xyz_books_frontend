@@ -1,3 +1,5 @@
+import { wrapper } from '../redux/store';
+
 import '@/styles/globals.css';
 
 // Import components styles
@@ -10,7 +12,10 @@ import 'src/views/Banner2/styles.scss';
 import 'src/views/Banner3/styles.scss';
 import 'src/views/Footer/styles.scss';
 import 'src/views/Mask/styles.scss';
+import 'src/views/ShowBook/styles.scss';
 
-export default function App({ Component, pageProps }) {
+function App({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
+
+export default wrapper.withRedux(App);

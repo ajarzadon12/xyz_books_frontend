@@ -4,7 +4,7 @@ import LanguageIcon from '@mui/icons-material/Language';
 
 import Logo from 'src/assets/images/sample_logo.svg';
 import Button from 'src/components/Button';
-import TextInput from 'src/components/TextInput';
+import BookSearch from 'src/views/common/BookSearch';
 
 const Header = (props) => {
   return (
@@ -13,7 +13,7 @@ const Header = (props) => {
         <Logo />
       </div>
       <div>
-        <TextInput placeholder="Search" Icon={SearchIcon} />
+        <BookSearch placeholder="Search" Icon={SearchIcon} />
       </div>
       <div className="buttons-container">
         <div>
